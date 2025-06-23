@@ -4,5 +4,13 @@ langchain_community
 langchain_experimental
 streamlit
 pandas
+tqdm
 python-dotenv
-flask
+langchain
+langchain-openai
+langchain-anthropic
+langchain-community
+langchain-experimental
+langchain-google-genai
+google-generativeai
+google-api-core
