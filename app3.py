@@ -60,8 +60,8 @@ def init_agent(df: pd.DataFrame):
         agent_executor_kwargs={"handle_parsing_errors": True},
         prefix=custom_prefix,
         format_instructions=format_instructions,
-        suffix=prompt_template,
-       # include_df_in_prompt=False,
+        #suffix=prompt_template,
+        include_df_in_prompt=True,
     )
     return agent
 
