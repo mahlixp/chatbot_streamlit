@@ -1,0 +1,8 @@
+langchain-openai
+langchain-anthropic
+langchain_community
+langchain_experimental
+streamlit
+pandas
+python-dotenv
+flask
