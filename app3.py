@@ -61,7 +61,7 @@ def init_agent(df: pd.DataFrame):
         prefix=custom_prefix,
         format_instructions=format_instructions,
         suffix=prompt_template,
-        include_df_in_prompt=False,
+       # include_df_in_prompt=False,
     )
     return agent
 
